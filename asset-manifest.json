@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/food-order-form/static/css/main.eb16b674.css",
-    "main.js": "/food-order-form/static/js/main.f7e841cd.js",
+    "main.js": "/food-order-form/static/js/main.1bda0bf7.js",
     "index.html": "/food-order-form/index.html",
     "main.eb16b674.css.map": "/food-order-form/static/css/main.eb16b674.css.map",
-    "main.f7e841cd.js.map": "/food-order-form/static/js/main.f7e841cd.js.map"
+    "main.1bda0bf7.js.map": "/food-order-form/static/js/main.1bda0bf7.js.map"
   },
   "entrypoints": [
     "static/css/main.eb16b674.css",
-    "static/js/main.f7e841cd.js"
+    "static/js/main.1bda0bf7.js"
   ]
 }
