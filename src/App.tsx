@@ -13,7 +13,7 @@ function App() {
          <Routes>
              <Route path={`${rootPath}/`} element={<OrderingPage/>}>
              </Route>
-             <Route path="/orderSummary" element={<OrderConfirmationPage/>}>
+             <Route path={`${process.env.PUBLIC_URL}/orderSummary`} element={<OrderConfirmationPage/>}>
              </Route>
          </Routes>
      </BrowserRouter>

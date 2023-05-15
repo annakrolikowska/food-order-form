@@ -53,7 +53,7 @@ const DishForm: React.FC = () => {
         api.createDish(dish)
             .then(response => {
                 setIsLoading(false);
-                navigate("/orderSummary", {state: {dish: response}})
+                navigate(`${process.env.PUBLIC_URL}/orderSummary`, {state: {dish: response}});
             })
             .catch(error => {
                 setIsAlertOpen(true)
