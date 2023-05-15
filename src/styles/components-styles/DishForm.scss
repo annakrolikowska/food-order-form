@@ -72,6 +72,10 @@
     @media (max-width: 600px) {
         & &__label {
         left: 60px;
+
+            &--diameter{
+                left: 196px;
+            }
         }
     } 
 }
