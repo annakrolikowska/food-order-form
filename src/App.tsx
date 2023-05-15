@@ -5,13 +5,11 @@ import OrderConfirmationPage from "./pages/OrderConfirmationPage";
 
 function App() {
 
-  const rootPath = "food-order-form"
-
   return (
     <>
      <BrowserRouter>
          <Routes>
-             <Route path={`${rootPath}/`} element={<OrderingPage/>}>
+             <Route path={`${process.env.PUBLIC_URL}`} element={<OrderingPage/>}>
              </Route>
              <Route path={`${process.env.PUBLIC_URL}/orderSummary`} element={<OrderConfirmationPage/>}>
              </Route>
