@@ -1,0 +1,14 @@
+@import "./global-styles/normalize.css"; 
+@import "./global-styles/root.css";
+
+body {
+    background-color: var(--color-background);
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: var(--font-primary);
+
+    @media (max-width: 425px) {
+        background-color: var(--color-white);
+    }
+}
+
