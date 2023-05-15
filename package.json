@@ -1,6 +1,7 @@
 {
   "name": "food-order-form",
   "version": "0.1.0",
+  "homepage": "https://annakrolikowska.github.io/food-order-form/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -23,6 +24,8 @@
     "webpack": "^5.82.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "jest": "^27.5.1",
     "node-sass": "^6.0.1"
   }
