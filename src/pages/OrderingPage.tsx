@@ -23,7 +23,7 @@ class OrderingPage extends Component<{}, FormState> {
             <section className="app-container">
                 <header>
                     <h1> Create an order</h1>
-                    <img src="/food-img.png" alt="logo" width="80%" height="75%" />
+                    <img src={`${process.env.PUBLIC_URL}/food-img.png`}  alt="logo" width="80%" height="75%" />
                 </header>
                 {isAlertOpen && (
                     <Alert

@@ -15,7 +15,7 @@ const OrderConfirmationPage: FC = () => {
 
     useEffect(() => {
         if (!dish || !state) {
-            navigate('/');
+            navigate(`${process.env.PUBLIC_URL}`);
         }
     }, [dish, state, navigate]);
 
@@ -55,7 +55,7 @@ const OrderConfirmationPage: FC = () => {
         <section className="confirmation app-container">
             <header>
                 <h2 className="confirmation__title">Thank you for placing your order</h2>
-                <img src="/order-img.png" alt="logo"  width="80%"/>
+                <img src={`${process.env.PUBLIC_URL}/order-img.png`}  alt="logo"  width="80%"/>
             </header>
             <div className="confirmation__container">
                 <p className="confirmation__text">
@@ -64,7 +64,7 @@ const OrderConfirmationPage: FC = () => {
                 </p>
                 {renderDishDetails()}
                 <Button className="button button--return">
-                    <Link to="/">Order again</Link>
+                    <Link to={process.env.PUBLIC_URL}>Order again</Link>
                 </Button>
             </div>
         </section>
