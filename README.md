@@ -1,4 +1,7 @@
 # 🍽️: Food Order App
+This application allows users to place **food orders**. The form includes the following inputs: dish name, preparation time, and dish type (pizza, sandwich, or soup). Depending on the selected type, additional inputs are displayed. 
+
+Creating the project took me approximately 12 hours.
 
  <img src="https://i.ibb.co/R31DJp9/orderform.png" title="mockup" alt="mockup" width="900"/>
  
@@ -11,10 +14,6 @@
 
 
  [---> check out the live project](https://annakrolikowska.github.io/food-order-form/)
-
-This application allows users to place **food orders**. The form includes the following inputs: dish name, preparation time, and dish type (pizza, sandwich, or soup). Depending on the selected type, additional inputs are displayed. 
-
-Creating the project took me approximately 12 hours.
 
 ## :bulb: Features
 - Design the application layout using **Figma**.
